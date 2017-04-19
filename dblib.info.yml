@@ -1,0 +1,6 @@
+name: 'DBLIB Sql Server driver'
+type: module
+description: 'DBLIB Driver for SQL Server and SQL Azure.'
+package: Database engines
+version: 8.x-1.x
+core: 8.x
