@@ -1,10 +1,10 @@
 <?php
 
-namespace Drupal\dblib\Driver;
+namespace Drupal\Driver\Database\dblib;
 
 use Drupal\Core\Database\Query\Insert as QueryInsert;
-use Drupal\dblib\Driver\TransactionSettings as DatabaseTransactionSettings;
-use Drupal\dblib\Driver\Utils as DatabaseUtils;
+use Drupal\Driver\Database\dblib\TransactionSettings as DatabaseTransactionSettings;
+use Drupal\Driver\Database\dblib\Utils as DatabaseUtils;
 use Exception as Exception;
 use PDO as PDO;
 

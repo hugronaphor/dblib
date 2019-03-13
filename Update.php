@@ -1,9 +1,9 @@
 <?php
 
-namespace Drupal\dblib\Driver;
+namespace Drupal\Driver\Database\dblib;
 
 use Drupal\Core\Database\Query\Update as QueryUpdate;
-use Drupal\dblib\Driver\Utils as DatabaseUtils;
+use Drupal\Driver\Database\dblib\Utils as DatabaseUtils;
 
 /**
  * MSSQL implementation of \Drupal\Core\Database\Query\Update.

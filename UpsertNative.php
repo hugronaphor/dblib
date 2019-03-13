@@ -1,10 +1,10 @@
 <?php
 
-namespace Drupal\dblib\Driver;
+namespace Drupal\Driver\Database\dblib;
 
 use Drupal\Core\Database\Query\Upsert as QueryUpsert;
 use Drupal\Core\Database\SchemaObjectDoesNotExistException;
-use Drupal\dblib\Driver\Utils as DatabaseUtils;
+use Drupal\Driver\Database\dblib\Utils as DatabaseUtils;
 
 /**
  * Implements Native Upsert queries for MSSQL.

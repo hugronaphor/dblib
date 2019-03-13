@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\dblib\Driver;
+namespace Drupal\Driver\Database\dblib;
 
 use Drupal\Core\Database\Connection as DatabaseConnection;
 use Drupal\Core\Database\Database;
@@ -13,7 +13,7 @@ use Drupal\Core\Database\TransactionCommitFailedException;
 use Drupal\Core\Database\TransactionNameNonUniqueException;
 use Drupal\Core\Database\TransactionNoActiveException;
 use Drupal\Core\Database\TransactionOutOfOrderException;
-use Drupal\dblib\Driver\Utils as DatabaseUtils;
+use Drupal\Driver\Database\dblib\Utils as DatabaseUtils;
 
 /**
  * MSSQL implementation of \Drupal\Core\Database\Connection.

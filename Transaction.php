@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\dblib\Driver;
+namespace Drupal\Driver\Database\dblib;
 
 use Drupal\Core\Database\Connection;
 use Drupal\Core\Database\Transaction as DatabaseTransaction;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\dblib\Driver;
+namespace Drupal\Driver\Database\dblib;
 
 class TransactionScopeOption extends Enum {
   const RequiresNew = 'RequiresNew';

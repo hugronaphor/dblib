@@ -1,12 +1,12 @@
 <?php
 
-namespace Drupal\dblib\Driver\Install;
+namespace Drupal\Driver\Database\dblib\Install;
 
 use Drupal\Core\Database\Database;
 use Drupal\Core\Database\Install\Tasks as InstallTasks;
 use Drupal\Core\Database\DatabaseNotFoundException;
-use Drupal\dblib\Driver\Connection;
-use Drupal\dblib\Driver\Schema;
+use Drupal\Driver\Database\dblib\Connection;
+use Drupal\Driver\Database\dblib\Schema;
 
 /**
  * Specifies installation tasks for MSSQL databases.

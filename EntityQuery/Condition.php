@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\dblib\Driver\EntityQuery\dblib;
+namespace Drupal\Driver\Database\dblib\EntityQuery\dblib;
 
 use Drupal\Core\Entity\Query\Sql\Condition as BaseCondition;
 

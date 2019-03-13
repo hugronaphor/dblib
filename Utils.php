@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\dblib\Driver;
+namespace Drupal\Driver\Database\dblib;
 
 /**
  * Custom utilities.

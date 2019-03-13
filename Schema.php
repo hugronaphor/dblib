@@ -1,14 +1,14 @@
 <?php
 
-namespace Drupal\dblib\Driver;
+namespace Drupal\Driver\Database\dblib;
 
 use Drupal\Component\Utility\Unicode;
 use Drupal\Core\Database\Schema as DatabaseSchema;
 use Drupal\Core\Database\SchemaObjectDoesNotExistException as DatabaseSchemaObjectDoesNotExistException;
 use Drupal\Core\Database\SchemaObjectExistsException;
 use Drupal\Core\Database\SchemaObjectExistsException as DatabaseSchemaObjectExistsException;
-use Drupal\dblib\Driver\TransactionSettings as DatabaseTransactionSettings;
-use Drupal\dblib\Driver\Utils as DatabaseUtils;
+use Drupal\Driver\Database\dblib\TransactionSettings as DatabaseTransactionSettings;
+use Drupal\Driver\Database\dblib\Utils as DatabaseUtils;
 
 /**
  * @addtogroup schemaapi
